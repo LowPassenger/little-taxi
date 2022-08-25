@@ -12,10 +12,10 @@ they run this application:
 [https://little-taxi.herokuapp.com/](https://little-taxi.herokuapp.com/)
 
 We know what driver **Vasil** use 
-login *vasil* 
+  * login *vasil* 
 and 
-password *1234* 
-It is a very bad practice, please never do that!
+  * password *1234* 
+It is a very bad practice, please never do that! 
 But we can use this credentials and find out how the application uses for:
   
   * Login and logout
@@ -64,7 +64,6 @@ Standart path to log file is
 logs/
 Maybe you need change it to absolute path like "D:/Projects/Taxi/logs/"
 Feel free to change log messages and log levels for messages in your code. 
-*
 
 
 ![123](images/123.jpg)![345](images/345.jpg)
