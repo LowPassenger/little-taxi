@@ -13,7 +13,6 @@ they run this application:
 
 We know what driver **Vasil** use 
   * login *vasil* 
-and 
   * password *1234*
    
 It is a very bad practice, please never do that! 
