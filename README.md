@@ -52,13 +52,13 @@ OK, you can use my code, it's free, to create your own application. To run progr
 
 [Little taxi project](https://github.com/LowPassenger/little-taxi)
 
-Must have: JDK (Intellij IDEA Ultimate, Eclipse e.t.c), Git, Apache Maven, Apache Tomcat, MySQL or any other server and (optional) MySQL Workbench. Use guides and Google search for troubleshoot apps installation issues.
-Create a database, use init_db.sql from 
+  * Must have: JDK (Intellij IDEA Ultimate, Eclipse e.t.c), Git, Apache Maven, Apache Tomcat, Apache log4j2, MySQL or any other server and (optional) MySQL Workbench. Use guides and Google search for troubleshoot apps installation issues.
+  * Create a database, use init_db.sql from 
 src/main/resources/
-Establish database connection, use credentials from SQL - login, password, path to your database and your JDBC driver in ConnectionUtil.java file
+  * Establish database connection, use credentials from SQL - login, password, path to your database and your JDBC driver in ConnectionUtil.java file
 src/main/java/taxi/util/
-Add TomcatLocal to JDK configuration. Use default port 8080. Do not forget to specify Tomcat installation folder and select taxi_service:war exploded in the fix window, also change the initial path from /web_security_war_exploded to / 
-Configure inner logger, use log4j2.xml file from
+  * Add TomcatLocal to JDK configuration. Use default port 8080. Do not forget to specify Tomcat installation folder and select taxi_service:war exploded in the fix window, also change the initial path from /web_security_war_exploded to / 
+  * Configure inner logger, use log4j2.xml file from
 src/main/resources/
 Standart path to log file is 
 logs/
@@ -67,4 +67,4 @@ Feel free to change log messages and log levels for messages in your code.
 *
 
 
-![123](images/123.jpg) ![345](images/345.jpg)![123](images/123.jpg)
+![123](images/123.jpg)![345](images/345.jpg)
