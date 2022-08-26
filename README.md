@@ -12,7 +12,7 @@ they run this application:
 [https://little-taxi.herokuapp.com/](https://little-taxi.herokuapp.com/)
 
 We know what driver **Vasil** use 
-  * login *vasil* 
+  * login *vasyl* 
   * password *1234*
    
 It is a very bad practice, please never do that! 
